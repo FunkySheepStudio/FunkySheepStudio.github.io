@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{324:function(t,n,e){"use strict";e.r(n);var o=e(81),component=Object(o.a)({},(function(){var t=this.$createElement;return(this._self._c||t)("img",{staticClass:"Logo",attrs:{alt:"Funky Sheep Logo",src:"/img/Logo-Mini.png"}})}),[],!1,null,null,null);n.default=component.exports}}]);

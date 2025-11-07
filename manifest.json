@@ -1,0 +1,19 @@
+{
+  "name": "My Boat",
+  "id": "http://localhost/",
+  "short_name": "myboat",
+  "description": "My boats managment app.",
+  "icons": [
+    {
+      "src": "images/Logo512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "http://localhost/",
+  "orientation": "portrait",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}

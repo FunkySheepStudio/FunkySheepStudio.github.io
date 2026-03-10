@@ -1,25 +1,25 @@
 <template>
-  <v-app>
-    <appBar/>
-    <mainMenu/>
-    <v-main>
-      <router-view />
-    </v-main>
-  </v-app>
-</template>
-<script>
-module.exports = {
-  components: {
-    'mainMenu': Vue.defineAsyncComponent( () => loadModule('./components/organisms/main_menu.vue', options)),
-    'appBar': Vue.defineAsyncComponent( () => loadModule('./components/organisms/app_bar.vue', options)),
-  },
-  data() {
-    return {
+    <v-app>
+        <v-main>
+          <router-view />
+        </v-main>
+      </v-app>
+      <tour/>
+  </template>
+  <script>
+  module.exports = {
+    components: {
+    },
+    data() {
+      return {
+      }
+    },
+    mounted () {
     }
-  },
-  mounted () {
   }
-}
-</script>
-<style>
-</style>
+  </script>
+  <style>
+  body {
+    font-family: Fira Sans, sans-serif;
+  }
+  </style>
